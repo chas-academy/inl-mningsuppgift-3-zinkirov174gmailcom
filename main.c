@@ -2,7 +2,11 @@
 #include <math.h>
 
 
-// This is where you add the function calculate_hypotenuse
+
+// Funktion som beräknar hypotenusan i en rätvinklig triangel
+float calculate_hypotenuse(float a, float b) {
+    return sqrt(pow(a, 2) + pow(b, 2));
+}
 
 int main() {
     float a = 3.0;
